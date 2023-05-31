@@ -1,0 +1,166 @@
+body {
+    margin-right: 25%;
+    margin-left: 25%;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 19px;
+    background-size: 100% 100%;
+    background-color: wheat;
+    font-size: 100%;
+    font-family: serif;
+}
+
+.coloured-title{
+    background-color: darkseagreen;
+    color : black;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+@media(max-width:1000px){
+    .navl{
+        display: none;
+        height: 0px;
+        width: 0px;
+    }
+    body{
+        margin-right: 15%;
+        margin-left: 15%;
+    }
+}
+
+.navl{
+    float: left;
+}
+
+.cleared{
+    clear:both;
+}
+
+h1{
+    text-align: center;
+}
+
+.box {
+    background-color: aqua;
+}
+
+img{
+    border : 5px solid white;
+    height: 80%;
+    width: 80%;
+}
+
+.img-t{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 1em;
+    margin: 0;
+    font: 1em sans-serif;
+}
+
+.figures{
+    text-align: center;
+    background-color: black;
+    border: 5px solid white;
+    padding: 5px;
+    padding-left: 0px;
+    margin-left: 30%;
+    margin-right: 30%;
+    height: 40%;
+    width: 40%;
+    max-height: 250px;
+    max-width: 250px;
+}
+
+a {
+    color: purple;
+}
+
+a:hover, a:active {
+    color: red;
+}
+
+table, tr, th, td, caption {
+    border: 1px solid black;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    border-collapse: collapse;
+    padding: 0.5rem;
+}
+
+button{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+#back{
+    float: right;
+}
+
+.cleared{
+    clear :left;
+}
+
+.forms{
+    background-color: darkseagreen;
+    color: black;
+    border: 5px solid black;
+    border-radius: 5%;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    padding-left: 40px;
+}
+
+input{
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+textarea{
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.copyright{
+    color : white;
+    background-color: black;
+}
+
+.menu-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.menu-container button{
+    background-color: orange;
+    color: white;
+    border-radius: 4px;
+}
+
+.menu-container > *{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 5px;
+    border: 3px solid black;
+    width: 150px;
+    transition: width 0.5s ease-out 100ms;
+}
+
+.menu-container > *:hover{
+    background-color: darkseagreen;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 5px;
+    border: 3px solid black;
+    width: 200px;
+}
